@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <main className={notoSansJP.className}>
         <h1>
-          <Image src={"/logo.png"} width={300} height={300} alt={"Togothon"} unoptimized={true} />
+          <Image src={"./logo.png"} width={300} height={300} alt={"Togothon"} />
         </h1>
         <div className={"markdown"}>
           <section>
