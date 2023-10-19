@@ -5,7 +5,6 @@ import schedule from "../markdown/schedule.md";
 import programme from "../markdown/programme.md";
 import tools from "../markdown/tools.md";
 import log from "../markdown/log.md";
-import Image from "next/image";
 import { Noto_Sans_JP } from "next/font/google";
 const notoSansJP = Noto_Sans_JP({
   weight: "400",
@@ -24,7 +23,7 @@ export default function Home() {
       </Head>
       <main className={notoSansJP.className}>
         <h1>
-          <Image src={"./logo.png"} width={300} height={300} alt={"Togothon"} />
+          <img src={"./logo.png"} width={300} height={300} alt={"Togothon"} />
         </h1>
         <div className={"markdown"}>
           <section>
