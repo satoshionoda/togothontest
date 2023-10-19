@@ -1,6 +1,7 @@
 body{
   background-color: #fafafa;
-  padding: 5vw;
+  padding-inline: 5vw;
+  padding-block: 2rem 5rem;
   line-height: 1.75;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -16,6 +17,7 @@ a{
 main > h1 {
   display: flex;
   justify-content: center;
+  margin-block: 0;
 }
 
 main {
