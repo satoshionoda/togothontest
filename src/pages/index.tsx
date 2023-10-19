@@ -2,10 +2,9 @@ import Head from "next/head";
 import Markdown from "react-markdown";
 import about from "../markdown/about.md";
 import schedule from "../markdown/schedule.md";
-import programme from "../markdown/programme.md";
 import tools from "../markdown/tools.md";
-import log from "../markdown/log.md";
 import { Noto_Sans_JP } from "next/font/google";
+
 const notoSansJP = Noto_Sans_JP({
   weight: "400",
   display: "swap",
@@ -34,12 +33,6 @@ export default function Home() {
           </section>
           <section>
             <Markdown>{tools}</Markdown>
-          </section>
-          <section>
-            <Markdown>{programme}</Markdown>
-          </section>
-          <section>
-            <Markdown>{log}</Markdown>
           </section>
         </div>
       </main>
